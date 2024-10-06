@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Резюме</h1> 
+        <img src="./media/istockphoto-1337144146-612x612.jpg"  id="foto">
+    </header>
+    <main>
+
+        <div>
+            <h2>Загальна інформація:</h2>
+            <p><span class="italic">Прізвище, ім'я, по батькові: </span>Майоров Данііл Сергійович</p>
+            <p><span class="italic">Дата народження: </span>07.01.2006</p>
+        </div>
+
+        <div>
+            <h2>Освіта</h2>
+            <ul>
+                <li>
+                    <p class="underline">Національний університет "Запорізька політехніка"</p>
+                    <p><span class="underline">Факультет:</span> Комп'ютерних наук та технологій</p>
+                    <p><span class="underline">Спеціальність:</span> Інженерія програмного забезпечення</p>
+                    <p><span class="underline">Ступінь:</span> бакалавр</p>
+                    <p>2023 - 2027</p>
+                </li>
+                <li>
+                    <p class="underline">Запорізька гімназія №94</p>
+                    <p><span class="underline">Освіта:</span> cередня</p>
+                    <p>2012 - 2023</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Професійні навички</h2>
+            <ol class="bold">
+                <li>
+                     <p><span class="bold">Загальний рівень володіння комп'ютером: </span> просунутий користувач ПК</p>  
+                </li>
+                <li>
+                    <p class="bold">Володіння офісними програмами: </p>
+                    <ol class="sub-list">
+                        <li>
+                         <p>Microsoft Office (Word, Excel, PowerPoint) – високий рівень</p>
+                        </li>
+                        <li>
+                            <p>Google Workspace (Docs, Sheets, Slides) – високий рівень</p>
+                        </li>
+                    </ol>  
+                </li>
+                <li>
+                    <p class="bold">Володіння IDE: </p>
+                    <ol class="sub-list">
+                        <li>
+                            <p>Visual Studio Code – високий рівень</p>
+                        </li>
+                        <li>
+                            <p>Visual Studio – високий рівень</p>
+                        </li>
+                        <li>
+                            <p>IntelliJ IDEA – початковий рівень</p>
+                        </li>
+                    </ol> 
+                </li>
+                <li>
+                    <p class="bold">Знання мов:</p>
+                    <p>Українська - <span class="italic">C1</span></p>
+                    <p>Англійська - <span class="italic">B1</span></p>
+                </li>
+            </ol>
+        </div>
+
+        <div>   
+            <h2>Контактна інформація</h2>
+            <p><span class="bold">Email</span> mayorovd@gmail.com</p>
+            <p><span class="bold">Номер телефона</span> +380664357169</p>
+            <p><span class="bold">Соціальні мережі</span></p>
+            <a href="https://www.instagram.com/">
+                <img src="./media/instagram-logo.png" class="social-media-logo">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="./media/facebook-logo.png" class="social-media-logo" id="facebook-logo">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="./media/linkedin-logo.png" class="social-media-logo">
+            </a>
+        </div> 
+
+        <div>
+            <h2>Зворотний зв'язок</h2>
+            <form>
+                <label for="name">Ім'я:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+    
+                <label for="email">Електронна пошта:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="phone">Телефон:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+    
+                <label for="message">Текст повідомлення:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+                <input type="submit" value="Відправити">
+            </form>
+        </div> 
+
+        </main>
+
+        <footer>
+
+            <div>
+                <a href="./table.html">Я вмію створювати таблиці</a>
+            </div>
+
+        </footer> 
+</body>
+</html>

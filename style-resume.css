@@ -1,0 +1,93 @@
+body {
+    background: #fff url('./media/bg.png') no-repeat left bottom; 
+    background-size: 80px; 
+    margin: 0;
+    font-family:'Raleway', sans-serif; 
+}
+
+
+h1{
+    text-align: center;
+    color: #13698A;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2{
+    color: #13698A;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    color:#50B3DA;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration: none;
+    color:#13698A;
+    font-size: 20px;
+    font-weight: 500;
+}
+a:hover{
+    color:#50B3DA;
+}
+
+form{
+    border: 2px solid #13698A; 
+    padding: 20px; 
+    width: 300px;
+    color:#50B3DA;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+textarea{
+    width: 100%;
+}
+
+footer{
+    border-top: 1px solid #13698A;
+}
+
+div{
+    margin: 40px 0px; 
+}
+
+#foto{
+    display: block; 
+    margin: 0 auto;
+    height: 100px; 
+    width: 100px; 
+}
+
+.sub-list{
+    color:#50B3DA;
+}
+
+
+.italic{
+    font-style: italic;
+    color: #1C87B1;
+}
+
+.bold{
+    font-weight:bold;
+    color:#1C87B1;
+}
+
+.underline{
+    text-decoration: underline;
+    color:#1C87B1;
+}
+
+
+.social-media-logo{
+    height:50px; 
+    width:50px;
+    margin: 0px 5px;
+}
+
